@@ -1,18 +1,18 @@
 {
-  "name": "blog",
+  "name": "latteandcat",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "description": "personal blog",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "build": "vuepress build docs"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "zsw",
+  "dependencies": {
+    "vuepress-theme-reco": "^1.0.9-alpha.8"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.0.2",
+    "vuepress": "^1.0.2",
+    "vuepress-plugin-flowchart": "^1.4.3"
+  }
 }
