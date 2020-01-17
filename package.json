@@ -1,18 +1,19 @@
 {
-  "name": "latteandcat",
+  "name": "kangaroo",
   "version": "1.0.0",
-  "description": "personal blog",
+  "description": "kangaroo descrtion",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "author": "zsw",
+  "author": "wmt",
   "dependencies": {
     "vuepress-theme-reco": "^1.0.9-alpha.8"
   },
   "devDependencies": {
     "@vuepress/plugin-medium-zoom": "^1.0.2",
     "vuepress": "^1.0.2",
-    "vuepress-plugin-flowchart": "^1.4.3"
+    "vuepress-plugin-flowchart": "^1.4.3",
+    "@vuepress/plugin-register-components": "1.2.0"
   }
 }

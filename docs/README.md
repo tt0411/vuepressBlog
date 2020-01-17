@@ -5,7 +5,7 @@ bgImageStyle: {
   height: '400px'
 }
 faceImage: '/logo.png'
-heroImage: /text.png
+heroImage: /qrcode.png
 heroImageStyle: {
   maxWidth: '300px',
   width: '100%',
